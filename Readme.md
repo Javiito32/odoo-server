@@ -2,6 +2,8 @@
 
 _Odoo server with integrated postgres database_
 
+## This server is still under development
+
 ## Getting Started 🚀
 
 _This is a guide for the deployment of this odoo server, no support will be provided_
@@ -43,7 +45,7 @@ _Use ```docker-compose down``` to remove the odoo server, postgres database, and
 
 ## Access the WebServer ⚙️
 
-_Now the Odoo Server should be available at localhost:80_
+_Now the Odoo Server should be available at localhost:8069_
 
 ### Database connection ⛓️
 

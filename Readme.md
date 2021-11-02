@@ -39,13 +39,17 @@ _Use ```docker-compose down``` to remove the odoo server, postgres database, and
 
 ⚠️ _The use of this command to stop it and then start it back with ```docker-compose up``` is not recommended, check ***Start ✔️ and Stop 🛑*** instead_
 
-✔️ This won't remove the workdir's [addons](odoo/addons), [config](odoo/config) and [web](odoo/web) or the data of the database [postgres](postgres).
+✔️ This won't remove the addon's [addons](odoo/addons) or the data of the database [postgres](postgres).
+
+✨ The following directories are not working, still under development [config](odoo/config) and [web](odoo/web) 
 
 🧹 To clean the database, remove all the contents of the [postgres](postgres) folder.
 
-## Access the WebServer ⚙️
+## Accessing Odoo ⚙️
 
 _Now the Odoo Server should be available at localhost:8069_
+
+⚡ You might set up your own configuration, the name of the database can't be _postgres_ or any other reserved word.
 
 ### Database connection ⛓️
 
